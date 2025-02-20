@@ -18,7 +18,7 @@ function OutputSection({ aiResponse }: PROPS) {
 
   const handleCopy = () => {
     navigator.clipboard.writeText(aiResponse);
-  }
+  };
 
   return (
     <div className="bg-white dark:bg-gray-700 shadow-lg border rounded-lg z-5">
